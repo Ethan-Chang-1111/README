@@ -1,0 +1,9 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+Write two or three sentences about yourself here. Where you're based, what
+you care about, and what brought you to this work. Keep it honest and
+specific rather than a resume summary.

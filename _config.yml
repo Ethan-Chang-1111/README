@@ -1,0 +1,35 @@
+title: Your Name
+description: Personal website of Your Name.
+url: "https://<username>.github.io"
+baseurl: ""
+
+# Built-in GitHub Pages theme — replaces the need for a custom styles.css.
+# Other supported options: jekyll-theme-cayman, jekyll-theme-slate,
+# jekyll-theme-architect, jekyll-theme-minimal, jekyll-theme-hacker,
+# jekyll-theme-tactile, jekyll-theme-dinky, jekyll-theme-time-machine,
+# jekyll-theme-modernist, jekyll-theme-midnight, jekyll-theme-leap-day.
+theme: minima
+
+# Nav links shown by the minima theme header.
+minima:
+  skin: dark
+  social_links:
+    - { platform: github,   user_url: "https://github.com/yourusername" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/yourusername" }
+    - { platform: twitter,  user_url: "https://twitter.com/yourusername" }
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+# Pages to include in the site nav (order controls left-to-right position).
+header_pages:
+  - about.md
+  - contact.md
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
